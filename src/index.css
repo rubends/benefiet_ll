@@ -1,13 +1,61 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#background-image {
+  height: 100vh;
+  background-image: url("./assets/kasteel.jpeg");
+  background-size: cover;
+  background-position: left top;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -100;
+}
+
+#main-nav,
+#main-nav p {
+  background-color: #0c0c0c;
+  color: white;
+}
+
+#main-nav li:hover p {
+  border-bottom: 1px solid white;
+}
+
+.home-content {
+  min-height: 90vh;
+  padding-top: 5%;
+}
+
+#home-card {
+  width: 25%;
+  margin-left: 37.5%;
+  text-align: center;
+  background-color: #00000075;
+  color: white;
+}
+
+#info-card {
+  width: 50%;
+  margin-left: 25%;
+  text-align: left;
+}
+
+#footer {
+  background-color: #0c0c0c;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
