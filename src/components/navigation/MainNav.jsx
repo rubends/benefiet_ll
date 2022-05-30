@@ -16,7 +16,7 @@ const MainNav = () => {
 
           <Link to="/wijn" style={{ textDecoration: "none" }}>
             <MenuItem>
-              <Typography>Wijn verkoop</Typography>
+              <Typography>Wijnverkoop</Typography>
             </MenuItem>
           </Link>
 

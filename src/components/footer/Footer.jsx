@@ -1,4 +1,4 @@
-import { Box, Toolbar, Typography } from "@mui/material";
+import { Box, Toolbar, ListItem } from "@mui/material";
 
 const Footer = () => {
   return (
@@ -7,7 +7,14 @@ const Footer = () => {
       sx={{ flexGrow: 1, display: { xs: "flex" }, justifyContent: "flex-end" }}
     >
       <Toolbar>
-        <Typography>Contact: lemmensveerle@hotmail.com</Typography>
+        <ListItem
+          button
+          key="Email"
+          component="a"
+          href="mailto:info@lucstoptdarmkanker.be"
+        >
+          info@lucstoptdarmkanker.be
+        </ListItem>
       </Toolbar>
     </Box>
   );
