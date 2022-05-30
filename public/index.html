@@ -35,6 +35,48 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://acties.stopdarmkanker.be/widget/donate_button.css"
+    />
+
+    <script>
+      window.onload = function () {
+        console.log("hellooo");
+        var kentaa_donation_button_position = "right";
+        var kentaa_donate_button_div = document.createElement("div");
+
+        kentaa_donate_button_div.className =
+          "kentaa-donate-button " +
+          kentaa_donation_button_position +
+          " kentaa-init ";
+        kentaa_donate_button_div.style.borderColor = "#2672b4";
+        kentaa_donate_button_div.id = "js-kentaa-donate-button-wrapper";
+
+        var kentaa_donate_button_trigger_div = document.createElement("a");
+        kentaa_donate_button_trigger_div.className =
+          "kentaa-donate-button-trigger";
+        kentaa_donate_button_trigger_div.id = "js-kentaa-show-donate-form";
+        kentaa_donate_button_trigger_div.innerHTML = "Doneer nu";
+
+        kentaa_donate_button_trigger_div.href =
+          "https://acties.stopdarmkanker.be/team/luc-stopt-darmkanker/donate";
+
+        kentaa_donate_button_trigger_div.target = "_blank";
+
+        kentaa_donate_button_div.appendChild(kentaa_donate_button_trigger_div);
+
+        document
+          .getElementsByTagName("body")[0]
+          .appendChild(kentaa_donate_button_div);
+
+        setTimeout(function () {
+          kentaa_donate_button_div.className =
+            "kentaa-donate-button " + kentaa_donation_button_position + " ";
+        }, 1000);
+      };
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

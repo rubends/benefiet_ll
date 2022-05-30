@@ -59,3 +59,8 @@ code {
   bottom: 0;
   width: 100%;
 }
+
+.kentaa-donate-button .kentaa-donate-button-trigger {
+  background-color: rgb(25, 118, 210) !important;
+  color: #fff !important;
+}
