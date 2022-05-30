@@ -29,6 +29,7 @@ const Wijn = () => {
           marginHeight="0"
           marginWidth="0"
           scrolling="no"
+          title="wijnverkoop-frame"
         >
           Laden…
         </iframe>
