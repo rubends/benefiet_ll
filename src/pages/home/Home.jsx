@@ -3,7 +3,7 @@ import Info from "../../components/info/Info";
 
 const Home = () => {
   return (
-    <Box sx={{}}>
+    <Box sx={{ width: "100%" }}>
       <Box id={"background-image"} sx={{}}></Box>
       <Box className="home-content" sx={{}}>
         <Card

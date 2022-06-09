@@ -1,19 +1,11 @@
-import {
-  Box,
-  Card,
-  CardContent,
-  Divider,
-  Grid,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Box, Card, CardContent, Grid, Stack, Typography } from "@mui/material";
 
 const Info = () => {
   return (
     <Card variant="outlined" id={"info-card"} sx={{ border: "none" }}>
       <CardContent>
         <Grid container spacing={2}>
-          <Grid item xs={5}>
+          <Grid item sm={5}>
             <Box
               component="img"
               sx={{
@@ -25,7 +17,7 @@ const Info = () => {
               src="./LucLemmens.JPG"
             />
           </Grid>
-          <Grid item xs={7}>
+          <Grid item sm={7}>
             <Stack sx={{}}>
               <Typography
                 variant="h4"

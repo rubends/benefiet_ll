@@ -14,7 +14,7 @@ const Wijn = () => {
     >
       <CardContent sx={{ marginBottom: "74px !important" }}>
         <Grid container spacing={2}>
-          <Grid item xs={5}>
+          <Grid item sm={5}>
             <Stack sx={{}}>
               <Typography
                 variant="h4"
@@ -43,7 +43,7 @@ const Wijn = () => {
               </Typography>
             </Stack>
           </Grid>
-          <Grid item xs={7}>
+          <Grid item sm={7}>
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeHkqh6E9yLa9WD32vUAY3R5OeyXJyRmFk4fkQgCGSGQy600g/viewform?embedded=true"
               width="640"

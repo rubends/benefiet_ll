@@ -34,7 +34,7 @@ const Benefiet = () => {
       {auth ? (
         <CardContent sx={{ paddingBottom: "10px" }}>
           <Grid container spacing={2}>
-            <Grid item xs={5}>
+            <Grid item sm={5}>
               <Stack sx={{}}>
                 <Typography
                   variant="h4"
@@ -74,7 +74,7 @@ const Benefiet = () => {
                 </Typography>
               </Stack>
             </Grid>
-            <Grid item xs={7}>
+            <Grid item sm={7}>
               <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSfgJczKjDY5LOcflc6vu2wv0dMRUsOFsCeeCyFHvB2kPyDkUA/viewform?embedded=true"
                 width="640"
