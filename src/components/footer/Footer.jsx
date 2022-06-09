@@ -6,7 +6,7 @@ const Footer = () => {
       id={"footer"}
       sx={{ flexGrow: 1, display: { xs: "flex" }, justifyContent: "flex-end" }}
     >
-      <Toolbar>
+      <Toolbar style={{ marginRight: "10%" }}>
         <ListItem
           button
           key="Email"

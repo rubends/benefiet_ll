@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const MainNav = () => {
   return (
     <AppBar position="fixed" id={"main-nav"}>
-      <Toolbar>
+      <Toolbar style={{ width: "80%", marginLeft: "10%", padding: 0 }}>
         <Typography variant="h6">Luc Stopt Darmkanker</Typography>
 
         <Box sx={{ flexGrow: 1, display: { xs: "flex" } }}>

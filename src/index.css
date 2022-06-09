@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,10 +11,10 @@ code {
 }
 
 #background-image {
-  height: 100vh;
+  height: 99vh;
   background-image: url("./assets/kasteel.jpeg");
   background-size: cover;
-  background-position: left top;
+  background-position: left bottom;
   width: 100%;
   position: absolute;
   top: 0;
@@ -25,12 +23,17 @@ code {
 
 #main-nav,
 #main-nav p {
-  background-color: #0c0c0c;
-  color: white;
+  background-color: white;
+  color: #0c0c0c;
+}
+
+#main-nav li:hover {
+  background-color: white;
 }
 
 #main-nav li:hover p {
   border-bottom: 1px solid white;
+  font-weight: 500;
 }
 
 .home-content {
@@ -39,22 +42,41 @@ code {
 }
 
 #home-card {
-  width: 25%;
-  margin-left: 37.5%;
-  text-align: center;
-  background-color: #00000075;
-  color: white;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  color: black;
+  z-index: 100;
+  border: none;
+  border-radius: 0;
+  padding-bottom: 20px;
+}
+
+#wijn-card {
+  padding-top: 5%;
+  width: 80%;
+  margin-left: 10%;
+  border: none;
+}
+
+#benefiet-card {
+  padding-top: 5%;
+  width: 80%;
+  margin-left: 10%;
+  border: none;
+  box-shadow: none;
 }
 
 #info-card {
-  width: 50%;
-  margin-left: 25%;
+  width: 80%;
+  margin-left: 10%;
   text-align: left;
 }
 
 #footer {
-  background-color: #0c0c0c;
-  color: white;
+  background-color: white;
+  color: #0c0c0c;
   position: fixed;
   bottom: 0;
   width: 100%;
