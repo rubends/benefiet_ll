@@ -74,6 +74,11 @@ code {
   text-align: left;
 }
 
+#code-card {
+  width: 80%;
+  margin-left: 10%;
+}
+
 #footer {
   background-color: white;
   color: #0c0c0c;
@@ -86,3 +91,9 @@ code {
   background-color: rgb(25, 118, 210) !important;
   color: #fff !important;
 }
+
+/* @media only screen and (max-width: 600px) {
+  .MuiTypography-h1 {
+    font-size: 2rem !important;
+  }
+} */

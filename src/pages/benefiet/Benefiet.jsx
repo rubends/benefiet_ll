@@ -92,15 +92,10 @@ const Benefiet = () => {
       ) : (
         <CardContent
           sx={{
-            width: "30%",
+            minWidth: "30%",
           }}
         >
-          <Card
-            variant="outlined"
-            sx={{
-              marginTop: "10%",
-            }}
-          >
+          <Card variant="outlined" id={"code-card"}>
             <CardMedia
               component="img"
               height="160"
