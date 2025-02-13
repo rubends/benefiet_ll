@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Benefiet LL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was a static website created for a charity fundraiser of some friends.
+
+
+_________________________
 
 ## Available Scripts
 
